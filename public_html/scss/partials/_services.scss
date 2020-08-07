@@ -1,0 +1,29 @@
+
+
+.services{
+    padding: 77px 0;
+    
+    figure{
+        flex: 0 0 83px;
+    }
+    
+    &.bg-info{
+        a{
+            h6{
+                color:$white;
+            }
+        }
+    }
+    
+    .service-item-info{
+        margin: 3rem 0 1.5rem;
+        height: 7.5rem;
+        overflow: hidden;
+    }
+    
+    .read-more{
+        font-weight: $font-weight-medium;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+}

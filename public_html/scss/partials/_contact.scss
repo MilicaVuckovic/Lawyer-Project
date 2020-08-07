@@ -1,0 +1,31 @@
+$input-color: $gray-900;
+.lead-page-section{
+    .company-address,
+    .company-email,
+    .company-phone{
+        *{
+            color:#586C88;
+        }
+    }
+}
+
+
+.contact-form-section{
+    padding: 6.8rem 0 12.8rem;
+    
+    
+    .form-control{
+        border:1ps solid transparent;
+        background-color: rgba(#253D61, 0.04);
+        line-height: 4.3rem;
+        color: $input-color;
+        height: auto;
+        
+        &::placeholder{
+            font-weight: 300;
+            color:rgba(#586C88, 0.8);
+        }
+    }
+    
+    
+}

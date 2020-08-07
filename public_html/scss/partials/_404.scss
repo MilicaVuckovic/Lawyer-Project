@@ -1,0 +1,20 @@
+.error-page{
+    padding: 12rem 0;
+    
+    .error-title{
+        font-size: 10rem;
+        line-height: 12rem;
+    }
+}
+
+@media(min-width:992px){
+    .error-page{
+    padding: 12rem 0;
+    
+    .error-title{
+        font-size: 14rem;
+        line-height: 16rem;
+    }
+}
+}
+

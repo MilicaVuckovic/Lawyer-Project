@@ -1,0 +1,58 @@
+$font-size-base:  1.6rem;
+
+$font-weight-medium : 500;
+
+$gray-900 : #1e1e1e;
+
+$primary: #1A77CD;
+$link-color: $gray-900;
+$link-hover-decoration:none;
+
+$info: #11284B;
+
+
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .5),
+    2: ($spacer ),
+    3: ($spacer* 1.5),
+    4: ($spacer * 2),
+    5: ($spacer * 2.5),
+    6: ($spacer * 3),
+    7: ($spacer * 3.5),
+    8: ($spacer* 4),
+    9: ($spacer * 4.5),
+    10: ($spacer * 5)
+  ),
+  $spacers
+);
+
+$grid-gutter-width:12px;
+
+$grid-breakpoints: (
+  xs: 0,
+  xm: 450px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$container-max-widths: (
+  //sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+) !default;
+
+$navbar-light-color:    $gray-900;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+
+$light : #F6F5F6;
+
+$form-group-margin-bottom:              2rem;

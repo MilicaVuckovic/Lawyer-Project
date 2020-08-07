@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Mar 12, 2020, 3:24:25 PM
+    Author     : frontend
+*/
+
+.news-list{
+    padding: 14.4rem 0 13.3rem;
+    
+    .news-item{
+        margin-bottom: 2rem;
+        &:hover{
+            .news-item-image{
+                img{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .news-item-title{
+            line-height: 4rem;
+            display: block;
+        }
+        .news-item-desc{
+            height: 7.5rem;
+            overflow: hidden;
+        }
+        
+        .read-more{
+            font-weight: $font-weight-medium;
+            font-size: 1.8rem;
+        }
+        .news-item-image{
+            overflow: hidden;
+            img{
+                display: block;
+                width: 100%;
+                transition: 0.3s linear;
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+    .news-list{
+
+    .news-item{
+        .news-item-title{
+            line-height: 4.6rem;          
+        }      
+    }
+}
+}
+
+
+.single-news{
+    padding: 6.7rem 0 14.4rem;
+    
+    .single-news-tags-label{
+        font-weight: $font-weight-medium;
+    }
+}

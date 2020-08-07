@@ -1,0 +1,30 @@
+$default-font: $rubik;
+img{
+    max-width: 100%;
+}
+
+html{
+    font-size: 10px; // 1 rem
+}
+
+
+body{
+    font-family: $default-font;
+    font-weight: $font-weight-light;
+}
+
+p{
+    line-height: 2.5rem;
+}
+
+h1{
+    font-size: 5rem;
+    line-height: 6.4rem;
+}
+
+h2{
+    font-size: 3.6rem;
+    line-height: 6.4rem;
+    display: block;
+        
+}

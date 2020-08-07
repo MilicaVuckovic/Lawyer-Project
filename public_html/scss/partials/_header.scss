@@ -1,0 +1,60 @@
+$toggler-bg: $primary;
+
+header{
+
+    .navbar-toggler{
+        border:none;
+        span{
+            display: block;
+            width: 30px;
+            height: 3px;
+            margin-bottom: 5px;
+            background-color: $toggler-bg;
+            &:last-of-type{
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                font-weight: $font-weight-medium;
+                font-size: 1.4rem;
+                line-height: 1.7rem;
+                padding: 10px;
+                text-align: center;
+            }// nav-link
+        }// nav-item
+    } // navbar-nav
+}// header
+
+@media(min-width:768px){
+    header{
+        .navbar-nav{
+            .nav-item{
+                margin-left: 2rem;
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+    header{
+        .navbar-nav{
+            .nav-item{
+                margin-left: 3.5rem;
+            }
+        }
+    }
+}
+
+@media(min-width:1200px){
+    header{
+        .navbar-nav{
+            .nav-item{
+                margin-left: 5.1rem;
+            }
+        }
+    }
+}
